@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Valentin Clarisse — À propos / recherche</title>
+
+  <link rel="stylesheet" href="./style.css?v=4" />
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="site-title">Valentin Clarisse</a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+
+        <ul id="main-menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="mathematiques.html">Mathématiques</a></li>
+          <li><a href="physique.html">Physique</a></li>
+          <li><a href="corriges.html">Corrigés</a></li>
+          <li><a href="apropos-recherche.html" class="active">À propos / recherche</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-header">
+      <div class="container">
+        <p class="kicker">Parcours • Doctorat • Articles</p>
+
+        <h1>À propos / recherche</h1>
+
+        <p>
+          Présentation du parcours, des thèmes de recherche, des publications
+          et des ressources disponibles.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+
+        <div class="grid-2">
+          <article class="card">
+            <h2>À propos</h2>
+
+            <p>
+              Valentin Clarisse est doctorant en première année de mathématiques.
+              Son travail s’inscrit à l’interface des mathématiques fondamentales,
+              de la physique théorique et de la modélisation.
+            </p>
+
+            <p>
+              Ce site rassemble progressivement des cours, polycopiés, corrigés
+              de concours, notes de recherche et ressources académiques.
+            </p>
+          </article>
+
+          <article class="card dark-card">
+            <h2>Axes de recherche</h2>
+
+            <ul class="clean-list">
+              <li>Groupes et algèbres de Lie</li>
+              <li>Théorie des représentations</li>
+              <li>Géométrie différentielle</li>
+              <li>Physique mathématique</li>
+              <li>Structures algébriques en physique théorique</li>
+            </ul>
+          </article>
+        </div>
+
+        <h2>Parcours académique</h2>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="resource-meta">Doctorat</p>
+            <h3>Doctorat en mathématiques</h3>
+            <p>
+              Première année de doctorat en mathématiques. Les informations précises
+              sur le laboratoire, le sujet et la direction de thèse pourront être
+              ajoutées ici.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <p class="resource-meta">Formation</p>
+            <h3>Études en mathématiques et physique</h3>
+            <p>
+              Formation orientée vers les mathématiques fondamentales, la physique
+              théorique, la géométrie, les structures algébriques et les méthodes
+              analytiques.
+            </p>
+          </article>
+        </div>
+
+        <h2>Publications et articles</h2>
+
+        <div class="grid-2">
+          <article class="card">
+            <p class="resource-meta">Article • Doctorat</p>
+
+            <h3>Titre de l’article à venir</h3>
+
+            <p>
+              Résumé court de l’article, statut de publication, lien HAL,
+              arXiv ou revue scientifique.
+            </p>
+
+            <a href="#" class="text-link">Lien vers l’article</a>
+          </article>
+
+          <article class="card">
+            <p class="resource-meta">Note de recherche</p>
+
+            <h3>Note de recherche à venir</h3>
+
+            <p>
+              Description courte de la note, du thème traité et du contexte
+              mathématique.
+            </p>
+
+            <a href="#" class="text-link">Lien vers la note</a>
+          </article>
+        </div>
+
+        <div class="search-box">
+          <h2>Recherche dans les ressources</h2>
+
+          <p>
+            Rechercher un cours, un corrigé ou une ressource par mot-clé.
+          </p>
+
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Exemple : analyse, algèbre, physique quantique, agrégation..."
+          />
+
+          <div id="search-results" class="search-results">
+            <p class="empty-state">Les résultats apparaîtront ici.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Valentin Clarisse — Mathématiques, Physique & Recherche</p>
+    </div>
+  </footer>
+
+  <script src="./script.js?v=4"></script>
+</body>
+</html>
